@@ -2,6 +2,10 @@
 
 ## NVIM Commands
 
+### General
+
+- u undo
+- ctrl r redo
 
 ### Explorer (Snacks)
 - a add file or directory (directory tails with /)
@@ -16,11 +20,16 @@
 - Z closes all folders inside root directory
 - . make the selected folder the explorer root
 
+### tabs
+ - <leader> tab ] or [
+ - gt go to next tab
 
 ### Buffer commands
 - gg jumps to the first line
 - G jumps to the last line
 - { } jumps between paragraphs
+
+- % jump between opening closing tags (using vim-matchup) 
 
 ### Terminal
 open terminal below ctrl + /
@@ -40,4 +49,4 @@ delete using Text Objects. Replace symbol with others, (, [, {, <, '
 *this works with yank too, prefix symbol with y*
 
 ## Tmux Commands
-
+- z zooms current active window and returns to normal view
